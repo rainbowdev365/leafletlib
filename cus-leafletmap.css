@@ -100,6 +100,8 @@
 
         .leaflet-control-layers-group label {
             /* padding-left: 20px; */
+            display: flex;
+            flex-direction: row;
         }
 
         .leaflet-control-layers-group-label input {
@@ -138,7 +140,8 @@
 
         .leaflet-control-layers .leaflet-control-layers-group-label {
             padding-left: 20px;
-            
+            display: flex;
+            flex-direction: row;
         }
 
         .leaflet-control-layers label {
@@ -177,7 +180,8 @@
         }
 
         .leaflet-control-layers .trigger-radio:checked~label {
-            display: block;
+            display: flex;
+            flex-direction: row;
         }
 
         @import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,200,300,400,600,700);
